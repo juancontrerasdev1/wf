@@ -1,0 +1,14 @@
+//
+// Icon info
+//
+
+@mixin icon-info-a {
+  a {
+    display: block;
+
+    &,
+    &:hover {
+      color: inherit;
+    }
+  }
+}
